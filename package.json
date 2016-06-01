@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RossignolVincent/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RossignolVincent/test/issues"
+  },
+  "homepage": "https://github.com/RossignolVincent/test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
