@@ -18,5 +18,8 @@
   "homepage": "https://github.com/RossignolVincent/test#readme",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "supertest": "^1.2.0"
   }
 }
