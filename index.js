@@ -2,6 +2,10 @@ var express = require('express')
 var api = express()
 var DEFAULT_PORT = 3000;
 
+api.get('/', function(req, res, next){
+    res.send("Hello Vincent !")
+})
+
 api.get('/contacts', function(req, res, next){
     res.send([])
 })
