@@ -18,6 +18,14 @@ describe('contacts', function(){
             .send()
             .expect(200)
         })
+        
+        it('should not autorize to create a new contact with an alread registered name', function(){
+            return request(api)
+            .post('/contacts/foo')
+            .send()
+            .expect(403)
+        })
+    
     })
     
     describe('PUT /contacts/:name/:new', function(){
