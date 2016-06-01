@@ -21,7 +21,7 @@ describe('contacts', function(){
         
         it('should not autorize to create a new contact with an alread registered name', function(){
             return request(api)
-            .post('/contacts/foo')
+            .post('/contacts/exist')
             .send()
             .expect(403)
         })
